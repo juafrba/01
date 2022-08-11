@@ -4,12 +4,12 @@ import { HeroeComponent } from "./heroe/heroe.component";
 import { ListComponent } from "./list/list.component";
 
 @NgModule({
-  imports: [
-    CommonModule,
-  ],
   declarations: [
     HeroeComponent,
     ListComponent
+  ],
+  imports: [
+    CommonModule,
   ],
   exports: [
     ListComponent,
